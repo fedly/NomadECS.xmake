@@ -1,0 +1,31 @@
+[
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Iecs.core", "/Fobuild\\.objs\\test\\windows\\x86\\debug\\example\\main.cpp.obj", "example\\main.cpp"],
+  "file": "example\\main.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x86\\debug\\ecs.core\\component.cpp.obj", "ecs.core\\component.cpp"],
+  "file": "ecs.core\\component.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x86\\debug\\ecs.core\\componentMask.cpp.obj", "ecs.core\\componentMask.cpp"],
+  "file": "ecs.core\\componentMask.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x86\\debug\\ecs.core\\entityManager.cpp.obj", "ecs.core\\entityManager.cpp"],
+  "file": "ecs.core\\entityManager.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x86\\debug\\ecs.core\\system.cpp.obj", "ecs.core\\system.cpp"],
+  "file": "ecs.core\\system.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x86\\debug\\ecs.core\\world.cpp.obj", "ecs.core\\world.cpp"],
+  "file": "ecs.core\\world.cpp"
+}]

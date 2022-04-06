@@ -1,0 +1,9 @@
+{
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=.",
+        // clang-tidy功能
+        "--clang-tidy",
+        "--clang-tidy-checks=performance-*,bugprone-*",
+    ]
+}
