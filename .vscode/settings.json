@@ -1,9 +1,15 @@
 {
+    "C_Cpp.codeAnalysis.runAutomatically": false,
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.formatting": "Disabled",
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.autocompleteAddParentheses": false,
+    "C_Cpp.autocomplete": "Disabled",
     "clangd.arguments": [
         "--background-index",
         "--compile-commands-dir=.",
-        // clang-tidy功能
+        "-j=13",
         "--clang-tidy",
-        "--clang-tidy-checks=performance-*,bugprone-*",
-    ]
+        "--pch-storage=memory",
+      ]
 }

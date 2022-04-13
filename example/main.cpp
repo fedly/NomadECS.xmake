@@ -1,22 +1,21 @@
+#include "../ecs.core/nomad.h"
 #include <iostream>
 #include <memory>
-#include "../ecs.core/nomad.h"
+
 
 using namespace nomad;
 
 struct Position : Component<Position> {
-  Position(float x): x(x) {};
+  Position(float x) : x(x){};
   float x;
 };
 
 class Wind : public System {
 public:
-  Wind() {
-    signature.addComponent<Position>();
-  }
+  Wind() { signature.addComponent<Position>(); }
 
   void update(int dt) {
-    for (auto & entity : registeredEntities) {
+    for (auto &entity : registeredEntities) {
       ComponentHandle<Position> position;
       parentWorld->unpack(entity, position);
 
@@ -46,7 +45,7 @@ int main() {
   tumbleweed.addComponent(Position(0));
 
   // Run game for "1 second at 50fps"
-  for(int i = 0; i < 50; i++) {
+  for (int i = 0; i < 50; i++) {
     world->update(20);
   }
 }
