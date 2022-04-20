@@ -1,31 +1,41 @@
 [
 {
-  "directory": "D:\\fedly\\github-prj\\NomadECS.xmake",
-  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\release\\ecs\\component.cpp.obj", "ecs\\component.cpp"],
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/I.", "/Fobuild\\.objs\\rts\\windows\\x64\\debug\\rts\\main.cpp.obj", "rts\\main.cpp"],
+  "file": "rts\\main.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/I.", "/Fobuild\\.objs\\rts\\windows\\x64\\debug\\rts\\system\\MoveSystem.cpp.obj", "rts\\system\\MoveSystem.cpp"],
+  "file": "rts\\system\\MoveSystem.cpp"
+},
+{
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\debug\\ecs\\component.cpp.obj", "ecs\\component.cpp"],
   "file": "ecs\\component.cpp"
 },
 {
-  "directory": "D:\\fedly\\github-prj\\NomadECS.xmake",
-  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\release\\ecs\\componentMask.cpp.obj", "ecs\\componentMask.cpp"],
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\debug\\ecs\\componentMask.cpp.obj", "ecs\\componentMask.cpp"],
   "file": "ecs\\componentMask.cpp"
 },
 {
-  "directory": "D:\\fedly\\github-prj\\NomadECS.xmake",
-  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\release\\ecs\\entityManager.cpp.obj", "ecs\\entityManager.cpp"],
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\debug\\ecs\\entityManager.cpp.obj", "ecs\\entityManager.cpp"],
   "file": "ecs\\entityManager.cpp"
 },
 {
-  "directory": "D:\\fedly\\github-prj\\NomadECS.xmake",
-  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\release\\ecs\\system.cpp.obj", "ecs\\system.cpp"],
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\debug\\ecs\\system.cpp.obj", "ecs\\system.cpp"],
   "file": "ecs\\system.cpp"
 },
 {
-  "directory": "D:\\fedly\\github-prj\\NomadECS.xmake",
-  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\release\\ecs\\world.cpp.obj", "ecs\\world.cpp"],
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Fobuild\\.objs\\ecs\\windows\\x64\\debug\\ecs\\world.cpp.obj", "ecs\\world.cpp"],
   "file": "ecs\\world.cpp"
 },
 {
-  "directory": "D:\\fedly\\github-prj\\NomadECS.xmake",
-  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/I.", "/Fobuild\\.objs\\test\\windows\\x64\\release\\example\\main.cpp.obj", "example\\main.cpp"],
+  "directory": "D:\\fedly\\workspace\\NomadECS.xmake",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/I.", "/Fobuild\\.objs\\test\\windows\\x64\\debug\\example\\main.cpp.obj", "example\\main.cpp"],
   "file": "example\\main.cpp"
 }]

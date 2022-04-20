@@ -10,6 +10,13 @@ target("test")
     add_files("example/*.cpp")
     add_deps("ecs")
 
+target("rts")
+    set_kind("binary")
+    add_includedirs(".")
+    add_files("rts/*.cpp")
+    add_files("rts/*/*.cpp")
+    add_deps("ecs")
+
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
