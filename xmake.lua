@@ -2,11 +2,11 @@ add_rules("mode.debug", "mode.release")
 
 target("ecs")
     set_kind("static")
-    add_files("ecs.core/*.cpp")
+    add_files("ecs/*.cpp")
 
 target("test")
     set_kind("binary")
-    add_includedirs("ecs.core")
+    add_includedirs(".")
     add_files("example/*.cpp")
     add_deps("ecs")
 

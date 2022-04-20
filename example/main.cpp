@@ -1,4 +1,4 @@
-#include "../ecs.core/nomad.h"
+#include "ecs/nomad.h"
 #include <iostream>
 #include <memory>
 
@@ -43,6 +43,7 @@ int main() {
   // Add an entity with a position
   auto tumbleweed = world->createEntity();
   tumbleweed.addComponent(Position(0));
+  tumbleweed.getComponent<Position>();
 
   // Run game for "1 second at 50fps"
   for (int i = 0; i < 50; i++) {

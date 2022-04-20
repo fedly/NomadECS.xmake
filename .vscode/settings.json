@@ -11,5 +11,8 @@
         "-j=13",
         "--clang-tidy",
         "--pch-storage=memory",
-      ]
+    ],
+    "clangd.fallbackFlags": [
+        "-I${workspaceFolder}"
+    ]
 }
