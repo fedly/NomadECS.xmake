@@ -2,7 +2,7 @@
 #include "ecs/component.h"
 
 namespace rts {
-struct PositionComoponent: nomad::Component<PositionComoponent> {
+struct TargetPositionComponent: nomad::Component<TargetPositionComponent> {
     float x;
     float y;
 };

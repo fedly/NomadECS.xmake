@@ -13,6 +13,7 @@
         "--pch-storage=memory",
     ],
     "clangd.fallbackFlags": [
-        "-I${workspaceFolder}"
+        "-I${workspaceFolder}",
+        "-I${workspaceFolder}/rts"
     ]
 }
